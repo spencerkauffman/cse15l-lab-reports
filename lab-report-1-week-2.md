@@ -54,6 +54,7 @@
 ![keygen](keygen.png)
 
 * Copy the public key to the `.ssh` directory on the remote computer:
+
 ```
 $ ssh cs15lsp22zz@ieng6.ucsd.edu
 <Enter Password>
@@ -63,6 +64,7 @@ $ <logout>
 $ scp /Users/<user-name>/.ssh/id_rsa.pub
 cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
 ```
+
 * `ssh` and `scp` should now work without needing a password:
 
 ![nopass](nopass.png)
