@@ -22,7 +22,7 @@ Change:
 
 ### Code Change #2
 
-Failure-inducing input: [new-test-file1](new_test-file1.md)
+Failure-inducing input: [new-test-file1](new-test-file1.md)
 
 Symptom of bug:
 ```
