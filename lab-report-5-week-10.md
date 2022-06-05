@@ -22,7 +22,7 @@ Proper output: [my_(url)]
 
 ![194_expected](194_expected.png)
 
-To fix the test in the other repository, one would have to modify the method which marks the index of the open parenthesis, since only the part in the parenthesis is counted, while VSCode states all the output after the closed bracket should be included in the link.
+To fix the test in the other repository, one would have to modify the code which copies the text in between the parenthesis, since only the part in the parenthesis is counted, while VSCode states all the output after the colon should be included in the link.
 
 ![194_change](194_change.png)
 
